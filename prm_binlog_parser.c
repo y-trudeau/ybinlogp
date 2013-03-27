@@ -5,6 +5,12 @@
  *
  * This work is licensed under the ISC/OpenBSD License. The full
  * contents of that license can be found under license.txt
+ * 
+ * Modified by Yves Trudeau, 2013-03 to get Xid, pos and md5 in
+ * order to be able to relate relay-log Xid with binlog when the 
+ * host is running with log_slave_updates.  Useful for the Percona
+ * replication monitor
+ * 
  */
 
 #define _XOPEN_SOURCE 600
